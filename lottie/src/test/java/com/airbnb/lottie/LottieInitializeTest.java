@@ -76,9 +76,7 @@ public class LottieInitializeTest extends BaseTest {
       this.jsonStream = jsonStream;
     }
 
-    @Override public boolean isSuccessful() {
-      return true;
-    }
+    @Override public boolean isSuccessful() { return true; }
 
     @Override @NonNull public InputStream bodyByteStream() {
       return jsonStream;
